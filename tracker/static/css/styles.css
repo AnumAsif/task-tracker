@@ -1,0 +1,58 @@
+body{
+    /* position:relative; */
+    background-image: url("/static/images/bricks-brickwall-brickwork-1092364.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* text-align: center; */
+    
+}
+.maindiv{
+    position: relative;
+    text-align: center;
+    /* background-color: black; */
+}
+#clockdiv{
+    position:relative;
+    display: inline-block;   
+    width:500;
+    height:500;
+    /* background-color: white; */
+}
+.msgDiv{ 
+
+    position: relative;
+    background-color: white;
+    border: 8px solid gainsboro;
+    border-radius: 5px;
+    display: inline-block;
+    width:40%;
+    height: 70px;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: #16A085;
+    color: white; 
+    margin-top:15px;
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    /* border-radius:5px; */
+}
+button:hover {
+    background-color: aliceblue;
+    color:#16A085;
+    border:2px solid #16A085;
+}
+
+input{
+    border:none;
+    font-size:20px;
+}
+#reportTable{
+    border:3px solid gainsboro;
+    background-color: aquamarine;
+}
+#reportTable tbody{
+    background-color: antiquewhite;
+}
